@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="QUẢN LÝ NHÂN SỰ"
+        android:textSize="30sp"
+        android:textColor="#03A9F4"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FPOLY SOFTWARE COMPANY"
+        android:textSize="24sp"
+        android:textColor="#FF5722"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnPhongBan"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="Phòng Ban"
+            android:background="@drawable/custom_button"
+            app:backgroundTint="@null"
+            android:textColor="#F80303"
+            android:textSize="24sp"
+            android:drawableTop="@drawable/ic_apartment"
+            android:layout_marginEnd="10dp"/>
+
+        <Button
+            android:id="@+id/btnNhanSu"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="Nhân Sự"
+            android:background="@drawable/custom_button"
+            app:backgroundTint="@null"
+            android:textColor="#1064E3"
+            android:textSize="24sp"
+            android:drawableTop="@drawable/ic_accessibility"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnThoat"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Thoát"
+        android:background="@drawable/custom_button"
+        app:backgroundTint="@null"
+        android:textColor="#000"
+        android:textSize="24sp"
+        android:drawableTop="@drawable/ic_exit"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:background="@drawable/custom_item_listview">
+
+    <TextView
+        android:id="@+id/txtMaNV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NV 01"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="#E91E63"/>
+
+    <TextView
+        android:id="@+id/txtTenNV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nguyễn Văn A"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#000"/>
+
+    <TextView
+        android:id="@+id/txtTenPB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nhân Sự"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#000"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ivEdit"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_edit"/>
+
+        <ImageView
+            android:id="@+id/ivDel"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_delete"/>
+    </LinearLayout>
+</LinearLayout>
